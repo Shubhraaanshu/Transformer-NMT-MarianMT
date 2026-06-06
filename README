@@ -1,0 +1,168 @@
+# MarianMT-Hindi-English-NMT
+
+🚧 **Research Project | Manuscript Under Preparation**
+
+## Overview
+
+MarianMT-Hindi-English-NMT is a research-oriented Neural Machine Translation (NMT) framework designed to improve Hindi-to-English translation through transformer-based contextual learning. The framework leverages the MarianMT architecture, attention-based sequence modeling, transfer learning, and fine-tuning on the IIT Bombay Hindi-English Parallel Corpus to generate fluent, semantically accurate, and context-aware translations.
+
+Unlike traditional Rule-Based Machine Translation (RBMT) and Statistical Machine Translation (SMT) systems, the proposed framework utilizes self-attention and cross-attention mechanisms to capture long-range dependencies, contextual meaning, and grammatical consistency during translation generation.
+
+---
+
+## Framework Architecture
+
+<p align="center">
+  <img src="figures/framework_workflow.png" width="800">
+</p>
+
+---
+
+## Framework Components
+
+### Data Collection & Preprocessing
+- IIT Bombay Hindi-English Parallel Corpus
+- Text normalization
+- Tokenization
+- Sequence truncation and padding
+
+### Transformer-Based Encoding
+- MarianMT Encoder
+- Contextual embedding generation
+- Semantic representation learning
+
+### Attention-Based Decoding
+- Self-attention mechanism
+- Cross-attention mechanism
+- Context-aware translation generation
+
+### Fine-Tuning Module
+- Transfer learning using pretrained MarianMT
+- Domain adaptation through bilingual sentence pairs
+- Contextual optimization via backpropagation
+
+### Translation Generation
+- Autoregressive decoding
+- Hindi-to-English sequence generation
+
+### Evaluation Module
+- BLEU Score
+- Translation Error Rate (TER)
+- ChrF Score
+
+---
+
+## Dataset
+
+### IIT Bombay Hindi-English Parallel Corpus
+
+- Public bilingual Hindi-English dataset
+- Multiple domains including news, literature, and web text
+- Fine-tuning performed on train, validation, and test splits
+
+---
+
+## Experimental Configuration
+
+| Parameter | Value |
+|------------|------------|
+| Model | MarianMT (opus-mt-hi-en) |
+| Architecture | Transformer Encoder–Decoder |
+| Tokenizer | MarianTokenizer |
+| Training Environment | Google Colab GPU |
+| Learning Strategy | Transfer Learning + Fine-Tuning |
+| Evaluation Metrics | BLEU, TER, ChrF |
+
+---
+
+## Experimental Results
+
+| Metric | Value |
+|----------|----------|
+| BLEU Score | 46.80 |
+| Translation Direction | Hindi → English |
+| Architecture | MarianMT Transformer |
+| Evaluation Metrics | BLEU, TER, ChrF |
+| Training Dataset | IIT Bombay Parallel Corpus |
+
+---
+
+## Results
+
+### Translation Workflow
+
+<p align="center">
+  <img src="figures/translation_workflow.png" width="750">
+</p>
+
+### BLEU Precision Analysis
+
+<p align="center">
+  <img src="figures/bleu_analysis.png" width="700">
+</p>
+
+### Qualitative Translation Performance
+
+<p align="center">
+  <img src="figures/qualitative_analysis.png" width="700">
+</p>
+
+### Comparative BLEU Score Analysis
+
+<p align="center">
+  <img src="figures/comparative_bleu.png" width="700">
+</p>
+
+---
+
+## Key Findings
+
+- Achieved a BLEU score of **46.80** on Hindi-to-English translation tasks.
+- Generated context-aware and semantically coherent English translations.
+- Improved translation fluency compared to traditional RBMT and SMT approaches.
+- Leveraged transfer learning through MarianMT fine-tuning.
+- Demonstrated strong performance across conversational, cultural, temporal, conditional, and interrogative sentence structures.
+- Reduced contextual ambiguity using transformer-based attention mechanisms.
+
+---
+
+## Research Contributions
+
+- Developed a transformer-based Hindi-to-English Neural Machine Translation framework using MarianMT.
+- Fine-tuned a pretrained MarianMT model on the IIT Bombay Hindi-English Parallel Corpus.
+- Integrated self-attention and cross-attention mechanisms for contextual translation generation.
+- Evaluated translation quality using BLEU, TER, and ChrF metrics.
+- Proposed a scalable framework for multilingual communication applications.
+
+---
+
+## Sustainability Impact
+
+This work aligns with the United Nations Sustainable Development Goals (SDGs):
+
+- 🎓 **SDG 4 – Quality Education**
+- 🏗️ **SDG 9 – Industry, Innovation and Infrastructure**
+- 🤝 **SDG 10 – Reduced Inequalities**
+
+By reducing language barriers and improving access to multilingual information, the framework promotes inclusive digital communication and knowledge accessibility.
+
+---
+
+## Authors
+
+**Rashi Bajpai**  
+Department of Computer Science & Engineering  
+Galgotias University
+
+**Shubhranshu Shekhar Dash**  
+Department of Computer Science & Engineering (AI & ML)  
+Galgotias University
+
+
+---
+
+## Status
+
+📄 **Research Manuscript Under Preparation**
+
+This repository contains the implementation, experimental artifacts, figures, and documentation associated with the ongoing research work.
