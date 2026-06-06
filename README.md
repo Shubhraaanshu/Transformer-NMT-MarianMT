@@ -1,8 +1,15 @@
-# MarianMT-Hindi-English-NMT
+<p align="center">
+  <img src="MarianMT - NMT Banner.png" width="100%">
+</p>
+
 
 🚧 **Research Project | Manuscript Under Preparation**
 
 ## Overview
+<p align="center">
+  <img src="workflow.png" width="850">
+</p>
+
 ## Framework Workflow
 
 
@@ -74,6 +81,9 @@ Unlike traditional Rule-Based Machine Translation (RBMT) and Statistical Machine
 </p>
 
 ## Qualitative Translation Performance
+<p align="center">
+  <img src="Qualitative Translation Performance Analysis.png" width="850">
+</p>
 
 
 ---
