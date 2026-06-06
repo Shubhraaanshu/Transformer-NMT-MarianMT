@@ -3,6 +3,8 @@
 🚧 **Research Project | Manuscript Under Preparation**
 
 ## Overview
+## Framework Workflow
+
 
 MarianMT-Hindi-English-NMT is a transformer-based Neural Machine Translation (NMT) framework for Hindi-to-English translation. The project leverages the MarianMT architecture and fine-tuning on the IIT Bombay Hindi-English Parallel Corpus to generate fluent, context-aware, and semantically accurate translations.
 
@@ -11,6 +13,11 @@ Unlike traditional Rule-Based Machine Translation (RBMT) and Statistical Machine
 ---
 
 ## Framework Components
+## Experimental Pipeline
+
+<p align="center">
+  <img src="experimental pipeline.jpg" width="850">
+</p>
 
 - Data Collection & Preprocessing
 - Tokenization using MarianTokenizer
@@ -33,6 +40,13 @@ Unlike traditional Rule-Based Machine Translation (RBMT) and Statistical Machine
 ---
 
 ## Experimental Configuration
+## MarianMT Architecture
+
+<p align="center">
+  <img src="MarianMT Architecture.jpg" width="850">
+</p>
+
+## MarianMT Architecture
 
 | Parameter | Value |
 |------------|------------|
@@ -52,6 +66,15 @@ Unlike traditional Rule-Based Machine Translation (RBMT) and Statistical Machine
 | Translation Direction | Hindi → English |
 | Model | MarianMT |
 | Dataset | IIT Bombay Parallel Corpus |
+
+## BLEU Precision Analysis
+
+<p align="center">
+  <img src="BLEU PRECISION ANALYSIS .jpg" width="850">
+</p>
+
+## Qualitative Translation Performance
+
 
 ---
 
